@@ -65,5 +65,5 @@ if($_POST) {
     } # end if - there was a validation error
 
 }
-
+header("Location: index.html");
 ?>
