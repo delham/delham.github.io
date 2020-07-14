@@ -50,7 +50,7 @@ if($_POST) {
         $mail = mail($siteOwnersEmail, $subject, $message, $headers);
 
         if ($mail) { echo "OK"; }
-        else { echo "Something went wrong. Please try again."; }
+        else { echo "Something went wrong. Please try again ok ?."; }
         
     } # end if - no validation error
 
@@ -65,5 +65,5 @@ if($_POST) {
     } # end if - there was a validation error
 
 }
-header("Location: index.html");
+
 ?>
